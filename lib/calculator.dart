@@ -8,6 +8,7 @@ class CalculatorApp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
 
+
       body: SafeArea(
 
         child: Column(
@@ -30,8 +31,8 @@ class CalculatorApp extends StatelessWidget {
                 Flexible(flex:1, child: Container(
                   child: const Column(crossAxisAlignment: CrossAxisAlignment.end,
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [Text("2568",
-                    style: TextStyle(
+                  children: [Text("2548",
+                    style: TextStyle( fontFamily: 'OverpassMono',
                         fontSize: 92,color: Colors.white),)],),
 
                   width: 500,
@@ -60,7 +61,7 @@ class CalculatorApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children:[
                       Container(child: CircleAvatar( backgroundColor: Colors.grey[400]
-                        ,child: Text("AC",style: TextStyle(fontSize: 40, color: Colors.grey[800]),),),width: 83,height: 83,),
+                        ,child: Text("AC",style: TextStyle(fontFamily: 'OverpassMono',fontSize: 40, color: Colors.grey[800]),),),width: 83,height: 83,),
                       Container(child: CircleAvatar( backgroundColor: Colors. grey[400],child: Text("+/-",style: TextStyle(fontSize: 40, color: Colors.grey[800]),),),width: 85,height: 83,),
                       Container(child: CircleAvatar( backgroundColor: Colors. grey[400],child: Text("%",style: TextStyle(fontSize: 40, color: Colors.grey[800]),),),width: 85,height: 83,),
                       Container(width: 85,height: 80, child: CircleAvatar( child: Text("/",style: TextStyle(fontSize: 40, color: Colors.white60),),
